@@ -1,4 +1,4 @@
 numbers = [5, 2, 5, 2, 2]
 
-for i in range(len(numbers)):
-    print('x' * numbers[i])
+for i in numbers:
+    print('x' * i)
